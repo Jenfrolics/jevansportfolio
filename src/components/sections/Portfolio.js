@@ -29,19 +29,19 @@ const Portfolio = () => {
 						>
 							<SwiperSlide className="swiper-slide">
 								<img
-									src="assets/portfolio/project-2.jpg"
+									src="assets/portfolio/universal-studios/us-1.png"
 									title="img"
 								/>
 							</SwiperSlide>
 							<SwiperSlide className="swiper-slide">
 								<img
-									src="assets/portfolio/project-3.jpg"
+									src="assets/portfolio/universal-studios/us-2.png"
 									title="img"
 								/>
 							</SwiperSlide>
 							<SwiperSlide className="swiper-slide">
 								<img
-									src="assets/portfolio/project-1.jpg"
+									src="assets/portfolio/universal-studios/us-3.png"
 									title="img"
 								/>
 							</SwiperSlide>

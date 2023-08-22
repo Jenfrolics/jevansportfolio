@@ -1036,8 +1036,11 @@ header .mobile-menu {
 
 .portfolio .single-item .details {
 	margin-left: 40px;
-	white-space: nowrap;
 	cursor: grab;
+}
+
+.details {
+	width: 300px;
 }
 
 .portfolio .single-item .details h4 {
@@ -2635,4 +2638,16 @@ header .header-inner .menu ul li span:before,
 	color: #ff1466;
 	font-weight: bold;
 	margin-right: 10px;
+}
+
+/*custom */
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+	bottom: var(--swiper-pagination-bottom, 8px);
+	top: var(--swiper-pagination-top, auto);
+	left: 0;
+	width: 100%;
+	position: unset;
 }

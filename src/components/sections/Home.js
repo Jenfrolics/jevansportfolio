@@ -11,10 +11,6 @@ const Home = () => {
 						</span>
 						<span className="position-relative">
 							<span className="animated-layer">I'm</span>
-							<span className="intro animated-layer">
-								UX Engineer with 7 years experience, on
-								Vancouver Island
-							</span>
 						</span>
 						<span>
 							<span className="animated-layer">jenn</span>

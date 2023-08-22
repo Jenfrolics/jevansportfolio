@@ -60,6 +60,14 @@ const About = () => {
 									</span>
 								</span>
 							</li>
+							<li>
+								<span>
+									<span className="animated-layer fade-in-up-animation fadeInUp wow">
+										<span>Experience:</span>
+										<span>7 Years</span>
+									</span>
+								</span>
+							</li>
 						</ul>
 						<ul>
 							<li>
@@ -92,7 +100,7 @@ const About = () => {
 					<h3>
 						<span>
 							<span className="animated-layer fade-in-left-animation fadeInUp wow">
-								My Skills
+								Skills
 							</span>
 						</span>
 					</h3>
@@ -183,7 +191,7 @@ const About = () => {
 					<h3>
 						<span>
 							<span className="animated-layer fade-in-left-animation">
-								My Resume
+								Resume
 							</span>
 						</span>
 					</h3>

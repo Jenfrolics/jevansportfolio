@@ -65,12 +65,6 @@ const Portfolio = () => {
 								Universal Studios.
 							</p>
 						</div>
-						<a href="#" target="_blank" className="custom-btn">
-							<span>
-								preview{" "}
-								<i className="fa-solid fa-arrow-up-right-from-square" />
-							</span>
-						</a>
 					</div>
 				</SwiperSlide>
 
@@ -121,12 +115,6 @@ const Portfolio = () => {
 								operational.
 							</p>
 						</div>
-						<a href="#" target="_blank" className="custom-btn">
-							<span>
-								preview{" "}
-								<i className="fa-solid fa-arrow-up-right-from-square" />
-							</span>
-						</a>
 					</div>
 				</SwiperSlide>
 
@@ -177,12 +165,6 @@ const Portfolio = () => {
 								operational.
 							</p>
 						</div>
-						<a href="#" target="_blank" className="custom-btn">
-							<span>
-								preview{" "}
-								<i className="fa-solid fa-arrow-up-right-from-square" />
-							</span>
-						</a>
 					</div>
 				</SwiperSlide>
 
@@ -233,12 +215,6 @@ const Portfolio = () => {
 								operational.
 							</p>
 						</div>
-						<a href="#" target="_blank" className="custom-btn">
-							<span>
-								preview{" "}
-								<i className="fa-solid fa-arrow-up-right-from-square" />
-							</span>
-						</a>
 					</div>
 				</SwiperSlide>
 
@@ -250,7 +226,7 @@ const Portfolio = () => {
 						>
 							<SwiperSlide className="swiper-slide">
 								<img
-									src="assets/portfolio/website/website-1.png"
+									src="assets/portfolio/website/website-both.jpg"
 									title="img"
 								/>
 							</SwiperSlide>
@@ -348,16 +324,6 @@ const Portfolio = () => {
 								experience.
 							</p>
 						</div>
-						<a
-							href="assets/portfolio/website/website-1.png"
-							target="_blank"
-							className="custom-btn"
-						>
-							<span>
-								preview{" "}
-								<i className="fa-solid fa-arrow-up-right-from-square" />
-							</span>
-						</a>
 					</div>
 				</SwiperSlide>
 

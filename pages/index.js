@@ -20,8 +20,9 @@ const Index = () => {
 				<div id="wrapper">
 					<main className="flex-column-mobile">
 						<Home />
+						<Separator type={"up"} />
 						<About />
-						<Separator type={"down"} />
+						<Separator type={"up"} />
 						<Portfolio />
 						<Separator type={"up"} />
 						<Contact />

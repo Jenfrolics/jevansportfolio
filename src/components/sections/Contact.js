@@ -25,16 +25,16 @@ const Contact = () => {
 						<i className="fa fa-phone" />
 						<p>
 							<span className="small-text">phone</span>
-							+216 21 184 010
+							+1 778 861 2465
 						</p>
 					</div>
 					{/* CONTACT ITEM ENDS */}
 					{/* CONTACT ITEM STARTS */}
 					<div className="animated-layer fade-in-up-animation fadeInUp wow">
-						<i className="fa fa-location-dot" />
+						<i className="fa-regular fa-dove" />
 						<p>
-							<span className="small-text">address</span>
-							London, England
+							<span className="small-text">carrier pigeon</span>
+							Vancouver Island
 						</p>
 					</div>
 					{/* CONTACT ITEM ENDS */}
@@ -47,34 +47,6 @@ const Contact = () => {
 							<span className="small-text">email</span>
 							jenfrolics@gmail.com
 						</p>
-					</div>
-					{/* CONTACT ITEM ENDS */}
-					{/* CONTACT ITEM STARTS */}
-					<div className="animated-layer fade-in-up-animation fadeInUp wow">
-						<i className="fa fa-share-nodes" />
-						<span className="small-text">follow me</span>
-						<ul className="social">
-							<li>
-								<a href="#">
-									<i className="fa-brands fa-github" />
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<i className="fa-brands fa-twitter" />
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<i className="fa-brands fa-dribbble" />
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<i className="fa-brands fa-facebook" />
-								</a>
-							</li>
-						</ul>
 					</div>
 					{/* CONTACT ITEM ENDS */}
 				</div>

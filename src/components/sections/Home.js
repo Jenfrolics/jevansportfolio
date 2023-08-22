@@ -2,18 +2,18 @@ const Home = () => {
 	return (
 		<section className="home image" id="home">
 			<div>
-				<div className="position-relative">
+				<div className="position-relative title">
 					<h1>
 						<span>
 							<span className="animated-layer">
-								Hello<span>.</span>
+								Hey<span>.</span>
 							</span>
 						</span>
 						<span className="position-relative">
-							<span className="animated-layer">I am</span>
+							<span className="animated-layer">I'm</span>
 							<span className="intro animated-layer">
-								Front-end Developer with 7 years experience
-								based in London
+								UX Engineer with 7 years experience, on
+								Vancouver Island
 							</span>
 						</span>
 						<span>

@@ -11,7 +11,7 @@ const Portfolio = () => {
 				<h3>
 					<span>
 						<span className="animated-layer fade-in-left-animation fadeInUp wow">
-							My Portfolio
+							Portfolio
 						</span>
 					</span>
 				</h3>
@@ -66,6 +66,293 @@ const Portfolio = () => {
 							</p>
 						</div>
 						<a href="#" target="_blank" className="custom-btn">
+							<span>
+								preview{" "}
+								<i className="fa-solid fa-arrow-up-right-from-square" />
+							</span>
+						</a>
+					</div>
+				</SwiperSlide>
+
+				<SwiperSlide className="single-item swiper-slide">
+					<div className="main-content">
+						<Swiper
+							{...salimovSlider.portfolioItems}
+							className="swiper swiper-portfolio-item"
+						>
+							<SwiperSlide className="swiper-slide">
+								<img
+									src="assets/portfolio/dashboard/dashboard-1.png"
+									title="img"
+								/>
+							</SwiperSlide>
+							<SwiperSlide className="swiper-slide">
+								<img
+									src="assets/portfolio/dashboard/dashboard-2.png"
+									title="img"
+								/>
+							</SwiperSlide>
+							<SwiperSlide className="swiper-slide">
+								<img
+									src="assets/portfolio/dashboard/dashboard-3.png"
+									title="img"
+								/>
+							</SwiperSlide>
+
+							<div className="swiper-pagination" />
+						</Swiper>
+					</div>
+					<div className="details">
+						<h4>API Key Dashboard</h4>
+						<div>
+							<p>
+								<span className="portfolio-headers">
+									Project:
+								</span>
+								API Key Retrieval Dashboard
+							</p>
+							<p>
+								<span className="portfolio-headers">
+									About:
+								</span>{" "}
+								A dashboard built using ReactJS for the
+								retrieval of an API key and to view metrics per
+								key. This dashboard is currently fully
+								operational.
+							</p>
+						</div>
+						<a href="#" target="_blank" className="custom-btn">
+							<span>
+								preview{" "}
+								<i className="fa-solid fa-arrow-up-right-from-square" />
+							</span>
+						</a>
+					</div>
+				</SwiperSlide>
+
+				<SwiperSlide className="single-item swiper-slide">
+					<div className="main-content">
+						<Swiper
+							{...salimovSlider.portfolioItems}
+							className="swiper swiper-portfolio-item"
+						>
+							<SwiperSlide className="swiper-slide">
+								<img
+									src="assets/portfolio/game-ui/demolition-before.png"
+									title="img"
+								/>
+							</SwiperSlide>
+							<SwiperSlide className="swiper-slide">
+								<img
+									src="assets/portfolio/game-ui/demolition-1.png"
+									title="img"
+								/>
+							</SwiperSlide>
+							<SwiperSlide className="swiper-slide">
+								<img
+									src="assets/portfolio/game-ui/demolition-2.png"
+									title="img"
+								/>
+							</SwiperSlide>
+
+							<div className="swiper-pagination" />
+						</Swiper>
+					</div>
+					<div className="details">
+						<h4>Game UI: Demolition</h4>
+						<div>
+							<p>
+								<span className="portfolio-headers">
+									Project:
+								</span>
+								Game UI Revamp: Demolition
+							</p>
+							<p>
+								<span className="portfolio-headers">
+									About:
+								</span>{" "}
+								A Game UI created in Unity for a game called
+								Demolition. The first beige image is the game's
+								state prior to the revamp. This game is fully
+								operational.
+							</p>
+						</div>
+						<a href="#" target="_blank" className="custom-btn">
+							<span>
+								preview{" "}
+								<i className="fa-solid fa-arrow-up-right-from-square" />
+							</span>
+						</a>
+					</div>
+				</SwiperSlide>
+
+				<SwiperSlide className="single-item swiper-slide">
+					<div className="main-content">
+						<Swiper
+							{...salimovSlider.portfolioItems}
+							className="swiper swiper-portfolio-item"
+						>
+							<SwiperSlide className="swiper-slide">
+								<img
+									src="assets/portfolio/game-ui/guardians-before.png"
+									title="img"
+								/>
+							</SwiperSlide>
+							<SwiperSlide className="swiper-slide">
+								<img
+									src="assets/portfolio/game-ui/guardians-logo.png"
+									title="img"
+								/>
+							</SwiperSlide>
+							<SwiperSlide className="swiper-slide">
+								<img
+									src="assets/portfolio/game-ui/guardians-after.jpg"
+									title="img"
+								/>
+							</SwiperSlide>
+
+							<div className="swiper-pagination" />
+						</Swiper>
+					</div>
+					<div className="details">
+						<h4>Game UI: Guardians</h4>
+						<div>
+							<p>
+								<span className="portfolio-headers">
+									Project:
+								</span>
+								Game UI Revamp: Guardians
+							</p>
+							<p>
+								<span className="portfolio-headers">
+									About:
+								</span>{" "}
+								A Game UI created in Unity for a game called
+								Guardians. The first beige image is the game's
+								state prior to the revamp. This game is fully
+								operational.
+							</p>
+						</div>
+						<a href="#" target="_blank" className="custom-btn">
+							<span>
+								preview{" "}
+								<i className="fa-solid fa-arrow-up-right-from-square" />
+							</span>
+						</a>
+					</div>
+				</SwiperSlide>
+
+				<SwiperSlide className="single-item swiper-slide">
+					<div className="main-content">
+						<Swiper
+							{...salimovSlider.portfolioItems}
+							className="swiper swiper-portfolio-item"
+						>
+							<SwiperSlide className="swiper-slide">
+								<img
+									src="assets/portfolio/website/website-1.png"
+									title="img"
+								/>
+							</SwiperSlide>
+							<SwiperSlide className="swiper-slide">
+								<img
+									src="assets/portfolio/website/website-2.jpg"
+									title="img"
+								/>
+							</SwiperSlide>
+							<SwiperSlide className="swiper-slide">
+								<img
+									src="assets/portfolio/website/website-3.png"
+									title="img"
+								/>
+							</SwiperSlide>
+
+							<div className="swiper-pagination" />
+						</Swiper>
+					</div>
+					<div className="details">
+						<h4>Website</h4>
+						<div>
+							<p>
+								<span className="portfolio-headers">
+									Project:
+								</span>
+								Croquet Website Revamp
+							</p>
+							<p>
+								<span className="portfolio-headers">
+									About:
+								</span>{" "}
+								A new website design created in Figma for
+								Croquet's new Metaverse project. This website is
+								currently in its development stage using NextJS.
+							</p>
+						</div>
+						<a
+							href="assets/portfolio/website/website-1.png"
+							target="_blank"
+							className="custom-btn"
+						>
+							<span>
+								preview{" "}
+								<i className="fa-solid fa-arrow-up-right-from-square" />
+							</span>
+						</a>
+					</div>
+				</SwiperSlide>
+
+				<SwiperSlide className="single-item swiper-slide">
+					<div className="main-content">
+						<Swiper
+							{...salimovSlider.portfolioItems}
+							className="swiper swiper-portfolio-item"
+						>
+							<SwiperSlide className="swiper-slide">
+								<img
+									src="assets/portfolio/metaverse/microverse-1.png"
+									title="img"
+								/>
+							</SwiperSlide>
+							<SwiperSlide className="swiper-slide">
+								<img
+									src="assets/portfolio/metaverse/microverse-2.png"
+									title="img"
+								/>
+							</SwiperSlide>
+							<SwiperSlide className="swiper-slide">
+								<img
+									src="assets/portfolio/metaverse/microverse-4.png"
+									title="img"
+								/>
+							</SwiperSlide>
+
+							<div className="swiper-pagination" />
+						</Swiper>
+					</div>
+					<div className="details">
+						<h4>Metaverse</h4>
+						<div>
+							<p>
+								<span className="portfolio-headers">
+									Project:
+								</span>
+								Croquet: Microverse UI
+							</p>
+							<p>
+								<span className="portfolio-headers">
+									About:
+								</span>{" "}
+								A UI created for Croquet's Microverse project.
+								This includes 2D and 3D elements, settings
+								menus, avatar selection and the navigation user
+								experience.
+							</p>
+						</div>
+						<a
+							href="assets/portfolio/website/website-1.png"
+							target="_blank"
+							className="custom-btn"
+						>
 							<span>
 								preview{" "}
 								<i className="fa-solid fa-arrow-up-right-from-square" />

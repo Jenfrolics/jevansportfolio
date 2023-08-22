@@ -13,7 +13,7 @@ const About = () => {
 						<div>
 							<img
 								className="my-photo"
-								src="assets/about.jpg"
+								src="assets/jenn-pfp.jpg"
 								alt=""
 							/>
 						</div>
@@ -30,7 +30,7 @@ const About = () => {
 						</span>
 						<span>
 							<span className="animated-layer fade-in-up-animation fadeInUp wow">
-								Walker
+								evans
 							</span>
 						</span>
 					</h2>
@@ -39,23 +39,7 @@ const About = () => {
 							<li>
 								<span>
 									<span className="animated-layer fade-in-up-animation fadeInUp wow">
-										<span>Age :</span>
-										<span>27 Years</span>
-									</span>
-								</span>
-							</li>
-							<li>
-								<span>
-									<span className="animated-layer fade-in-up-animation fadeInUp wow">
-										<span>Nationality :</span>
-										<span>German</span>
-									</span>
-								</span>
-							</li>
-							<li>
-								<span>
-									<span className="animated-layer fade-in-up-animation fadeInUp wow">
-										<span>Freelance :</span>
+										<span>Contract:</span>
 										<span>Available</span>
 									</span>
 								</span>
@@ -63,8 +47,16 @@ const About = () => {
 							<li>
 								<span>
 									<span className="animated-layer fade-in-up-animation fadeInUp wow">
-										<span>Langages :</span>
-										<span>English</span>
+										<span>Languages :</span>
+										<span>English, Romanian</span>
+									</span>
+								</span>
+							</li>
+							<li>
+								<span>
+									<span className="animated-layer fade-in-up-animation fadeInUp wow">
+										<span>Location: </span>
+										<span>Vancouver Island</span>
 									</span>
 								</span>
 							</li>
@@ -73,16 +65,8 @@ const About = () => {
 							<li>
 								<span>
 									<span className="animated-layer fade-in-up-animation fadeInUp wow">
-										<span>Address :</span>
-										<span>London</span>
-									</span>
-								</span>
-							</li>
-							<li>
-								<span>
-									<span className="animated-layer fade-in-up-animation fadeInUp wow">
 										<span>Phone :</span>
-										<span>21 184 010</span>
+										<span>778.861.2465</span>
 									</span>
 								</span>
 							</li>
@@ -90,15 +74,7 @@ const About = () => {
 								<span>
 									<span className="animated-layer fade-in-up-animation fadeInUp wow">
 										<span>Email :</span>
-										<span>contact@jenn.net</span>
-									</span>
-								</span>
-							</li>
-							<li>
-								<span>
-									<span className="animated-layer fade-in-up-animation fadeInUp wow">
-										<span>Skype :</span>
-										<span>jenn.walker</span>
+										<span>jenfrolics@gmail.com</span>
 									</span>
 								</span>
 							</li>

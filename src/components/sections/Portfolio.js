@@ -46,6 +46,7 @@ const Portfolio = () => {
 								/>
 							</SwiperSlide>
 							<div className="swiper-pagination" />
+							<p className="swipe">swipe</p>
 						</Swiper>
 					</div>
 					<div className="details">
@@ -94,6 +95,7 @@ const Portfolio = () => {
 							</SwiperSlide>
 
 							<div className="swiper-pagination" />
+							<p className="swipe">swipe</p>
 						</Swiper>
 					</div>
 					<div className="details">
@@ -144,6 +146,7 @@ const Portfolio = () => {
 							</SwiperSlide>
 
 							<div className="swiper-pagination" />
+							<p className="swipe">swipe</p>
 						</Swiper>
 					</div>
 					<div className="details">
@@ -194,6 +197,7 @@ const Portfolio = () => {
 							</SwiperSlide>
 
 							<div className="swiper-pagination" />
+							<p className="swipe">swipe</p>
 						</Swiper>
 					</div>
 					<div className="details">
@@ -244,6 +248,7 @@ const Portfolio = () => {
 							</SwiperSlide>
 
 							<div className="swiper-pagination" />
+							<p className="swipe">swipe</p>
 						</Swiper>
 					</div>
 					<div className="details">
@@ -303,6 +308,7 @@ const Portfolio = () => {
 							</SwiperSlide>
 
 							<div className="swiper-pagination" />
+							<p className="swipe">swipe</p>
 						</Swiper>
 					</div>
 					<div className="details">

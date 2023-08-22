@@ -2651,3 +2651,7 @@ header .header-inner .menu ul li span:before,
 	width: 100%;
 	position: unset;
 }
+
+p.swipe {
+	text-align: center;
+}

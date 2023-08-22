@@ -326,7 +326,7 @@ ul {
 /*** Title Section ***/
 
 .custom-title {
-	margin-right: 150px;
+	margin-right: 100px;
 	margin-left: 150px;
 	text-align: center;
 	writing-mode: vertical-rl;
@@ -2629,4 +2629,10 @@ header .header-inner .menu ul li span:before,
 
 .home > div > div h1 > span > span > span {
 	text-shadow: 8px 8px #ff1466, 20px 20px #222;
+}
+
+.portfolio-headers {
+	color: #ff1466;
+	font-weight: bold;
+	margin-right: 10px;
 }

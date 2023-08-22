@@ -7,6 +7,17 @@ export const jqueryFuntion = () => {
 		/*  PAGE PRELOADER
     /* ----------------------------------------------------------- */
 
+		var homewidth = $(".home").width() - 10;
+		var aboutwidth = homewidth + $(".about").width() - 10;
+		var portfoliowidth =
+			aboutwidth +
+			$(".portfolio .single-item .main-content").width() +
+			$(".portfolio .single-item .details").width() +
+			250 +
+			65 +
+			290;
+		var contactwidth = portfoliowidth + $(".contact").width() - 10;
+
 		var preloader = $("#preloader");
 		setTimeout(function () {
 			preloader.addClass("preloaded");
@@ -35,11 +46,43 @@ export const jqueryFuntion = () => {
 		/*  SET ACTIVE MENU ITEM ON SCROLL
     /* ----------------------------------------------------------- */
 
-		var homewidth = $(".home").width() - 10;
-		var aboutwidth = $(".about").width() - 10;
-		var portfoliowidth =
-			$(".portfolio .single-item .main-content").width() +
-			$(".portfolio .single-item .details").width();
+		function checkScroll() {
+			if (
+				Math.abs(parseInt($(".mCSB_container").css("left"))) >
+					homewidth &&
+				Math.abs(parseInt($(".mCSB_container").css("left"))) <
+					aboutwidth
+			) {
+				$(".menu ul li span").removeClass("active");
+				$("#about-link").addClass("active");
+			} else if (
+				Math.abs(parseInt($(".mCSB_container").css("left"))) >
+					aboutwidth &&
+				Math.abs(parseInt($(".mCSB_container").css("left"))) <
+					portfoliowidth
+			) {
+				$(".menu ul li span").removeClass("active");
+				$("#portfolio-link").addClass("active");
+			} else if (
+				Math.abs(parseInt($(".mCSB_container").css("left"))) >
+					portfoliowidth &&
+				Math.abs(parseInt($(".mCSB_container").css("left"))) <
+					contactwidth
+			) {
+				$(".menu ul li span").removeClass("active");
+				$("#contact-link").addClass("active");
+			} else if (
+				Math.abs(parseInt($(".mCSB_container").css("left"))) >
+					contactwidth &&
+				Math.abs(parseInt($(".mCSB_container").css("left"))) < blogwidth
+			) {
+				$(".menu ul li span").removeClass("active");
+				$("#blog-link").addClass("active");
+			} else {
+				$(".menu ul li span").removeClass("active");
+				$("#home-link").addClass("active");
+			}
+		}
 
 		/* ----------------------------------------------------------- */
 		/*  HORIZONTAL SCROLL & REVEAL ANIMATIONS
@@ -78,35 +121,6 @@ export const jqueryFuntion = () => {
 					}
 				}
 			});
-		}
-
-		function checkScroll() {
-			if (
-				Math.abs(parseInt($(".mCSB_container").css("left"))) <
-				aboutwidth
-			) {
-				$(".menu ul li span").removeClass("active");
-				$("#home-link").addClass("active");
-			} else if (
-				Math.abs(parseInt($(".mCSB_container").css("left"))) > homewidth
-			) {
-				$(".menu ul li span").removeClass("active");
-				$("#about-link").addClass("active");
-			} else if (
-				Math.abs(parseInt($(".mCSB_container").css("left"))) >
-				aboutwidth
-			) {
-				$(".menu ul li span").removeClass("active");
-				$("#portfolio-link").addClass("active");
-			} else if (
-				Math.abs(parseInt($(".mCSB_container").css("left"))) >
-					homewidth &&
-				aboutwidth &&
-				portfoliowidth
-			) {
-				$(".menu ul li span").removeClass("active");
-				$("#contact-link").addClass("active");
-			}
 		}
 
 		if ($("#wrapper").length) {

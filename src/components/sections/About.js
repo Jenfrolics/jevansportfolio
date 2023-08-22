@@ -104,17 +104,17 @@ const About = () => {
 						{/* SKILL ITEM STARTS */}
 						<div className="animated-layer fade-in-down-animation fadeInLeft wow">
 							<span>
-								<i className="devicon-wordpress-plain" />
+								<i className="fa-brands fa-bootstrap"></i>{" "}
 							</span>
-							<h4>WordPress</h4>
+							<h4>Bootstrap</h4>
 						</div>
 						{/* SKILL ITEM ENDS */}
 						{/* SKILL ITEM STARTS */}
 						<div className="animated-layer fade-in-up-animation fadeInRight wow">
 							<span>
-								<i className="devicon-jquery-plain" />
+								<i className="fa-brands fa-git"></i>{" "}
 							</span>
-							<h4>jQuery</h4>
+							<h4>Git</h4>
 						</div>
 						{/* SKILL ITEM ENDS */}
 					</div>
@@ -122,7 +122,7 @@ const About = () => {
 						{/* SKILL ITEM STARTS */}
 						<div className="animated-layer fade-in-down-animation fadeInLeft wow">
 							<span>
-								<i className="devicon-angularjs-plain" />
+								<i className="fa-brands fa-angular"></i>{" "}
 							</span>
 							<h4>Angular JS</h4>
 						</div>
@@ -130,9 +130,9 @@ const About = () => {
 						{/* SKILL ITEM STARTS */}
 						<div className="animated-layer fade-in-up-animation fadeInRight wow">
 							<span>
-								<i className="devicon-drupal-plain" />
+								<i className="fa-solid fa-bezier-curve"></i>{" "}
 							</span>
-							<h4>Drupal</h4>
+							<h4>Adobe</h4>
 						</div>
 						{/* SKILL ITEM ENDS */}
 					</div>
@@ -140,7 +140,7 @@ const About = () => {
 						{/* SKILL ITEM STARTS */}
 						<div className="animated-layer fade-in-down-animation fadeInLeft wow">
 							<span>
-								<i className="devicon-react-plain" />
+								<i className="fa-brands fa-react"></i>{" "}
 							</span>
 							<h4>React JS</h4>
 						</div>
@@ -148,9 +148,9 @@ const About = () => {
 						{/* SKILL ITEM STARTS */}
 						<div className="animated-layer fade-in-up-animation fadeInRight wow">
 							<span>
-								<i className="devicon-docker-plain" />
+								<i className="fa-brands fa-figma"></i>{" "}
 							</span>
-							<h4>Docker</h4>
+							<h4>Figma</h4>
 						</div>
 						{/* SKILL ITEM ENDS */}
 					</div>
@@ -158,7 +158,7 @@ const About = () => {
 						{/* SKILL ITEM STARTS */}
 						<div className="animated-layer fade-in-down-animation fadeInLeft wow">
 							<span>
-								<i className="devicon-nodejs-plain" />
+								<i className="fa-brands fa-node"></i>{" "}
 							</span>
 							<h4>Node JS</h4>
 						</div>
@@ -166,9 +166,9 @@ const About = () => {
 						{/* SKILL ITEM STARTS */}
 						<div className="animated-layer fade-in-up-animation fadeInRight wow">
 							<span>
-								<i className="devicon-sass-plain" />
+								<i className="fa-solid fa-code"></i>{" "}
 							</span>
-							<h4>Sass</h4>
+							<h4>Html / CSS</h4>
 						</div>
 						{/* SKILL ITEM ENDS */}
 					</div>
@@ -196,15 +196,17 @@ const About = () => {
 						{/* TIMELINE ITEM STARTS */}
 						<li>
 							<div className="animated-layer fade-in-down-animation fadeInUp wow">
-								<div className="experience">
-									<h4>Project Manager</h4>
+								<div className="education">
+									<h4>Bachelors EQ Degree</h4>
 									<p>
 										<i className="fa-regular fa-clock" />
-										<span>2019 - Now</span>
+										<span>2014</span>
 									</p>
 									<p>
 										<i className="fa-regular fa-building" />
-										<span>Adobe Company</span>
+										<span>
+											Vancouver College of Art and Design
+										</span>
 									</p>
 								</div>
 							</div>
@@ -213,49 +215,15 @@ const About = () => {
 						{/* TIMELINE ITEM STARTS */}
 						<li>
 							<div className="animated-layer fade-in-up-animation fadeInUp wow">
-								<div className="experience">
-									<h4>Team Leader</h4>
-									<p>
-										<i className="fa-regular fa-clock" />
-										<span>2015 - 2019</span>
-									</p>
-									<p>
-										<i className="fa-regular fa-building" />
-										<span>Twitter Inc</span>
-									</p>
-								</div>
-							</div>
-						</li>
-						{/* TIMELINE ITEM ENDS */}
-						{/* TIMELINE ITEM STARTS */}
-						<li>
-							<div className="animated-layer fade-in-down-animation fadeInUp wow">
 								<div className="experience">
 									<h4>Web Developer</h4>
 									<p>
 										<i className="fa-regular fa-clock" />
-										<span>2010 - 2015</span>
+										<span>2017 - 2018 - Contract</span>
 									</p>
 									<p>
 										<i className="fa-regular fa-building" />
-										<span>Facebook</span>
-									</p>
-								</div>
-							</div>
-						</li>
-						{/* TIMELINE ITEM ENDS */}
-						{/* TIMELINE ITEM STARTS */}
-						<li>
-							<div className="animated-layer fade-in-up-animation fadeInUp wow">
-								<div className="education">
-									<h4>Master Degree</h4>
-									<p>
-										<i className="fa-regular fa-clock" />
-										<span>2003</span>
-									</p>
-									<p>
-										<i className="fa-solid fa-building-columns" />
-										<span>London University</span>
+										<span>Juice Group</span>
 									</p>
 								</div>
 							</div>
@@ -264,15 +232,49 @@ const About = () => {
 						{/* TIMELINE ITEM STARTS */}
 						<li>
 							<div className="animated-layer fade-in-down-animation fadeInUp wow">
-								<div className="education">
-									<h4>Bachelor Degree</h4>
+								<div className="experience">
+									<h4>Web Development Manager</h4>
 									<p>
 										<i className="fa-regular fa-clock" />
-										<span>1999</span>
+										<span>2018 - Contract</span>
+									</p>
+									<p>
+										<i className="fa-regular fa-building" />
+										<span>Forever Yours</span>
+									</p>
+								</div>
+							</div>
+						</li>
+						{/* TIMELINE ITEM ENDS */}
+						{/* TIMELINE ITEM STARTS */}
+						<li>
+							<div className="animated-layer fade-in-up-animation fadeInUp wow">
+								<div className="experience">
+									<h4>UX Developer</h4>
+									<p>
+										<i className="fa-regular fa-clock" />
+										<span>2018 - 2020</span>
 									</p>
 									<p>
 										<i className="fa-solid fa-building-columns" />
-										<span>Berlin High School</span>
+										<span>Coppertree Analytics</span>
+									</p>
+								</div>
+							</div>
+						</li>
+						{/* TIMELINE ITEM ENDS */}
+						{/* TIMELINE ITEM STARTS */}
+						<li>
+							<div className="animated-layer fade-in-down-animation fadeInUp wow">
+								<div className="experience">
+									<h4>UX Engineer</h4>
+									<p>
+										<i className="fa-regular fa-clock" />
+										<span>2020 - Present</span>
+									</p>
+									<p>
+										<i className="fa-solid fa-building-columns" />
+										<span>Croquet</span>
 									</p>
 								</div>
 							</div>

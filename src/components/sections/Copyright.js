@@ -8,37 +8,6 @@ const Copyright = () => {
 			/>
 			<div>
 				<span>© {new Date().getFullYear()} jenn evans</span>
-				<span>
-					Designed By{" "}
-					<a
-						target="_blank"
-						href="https://themeforest.net/user/Codeefly/portfolio"
-					>
-						Codeefly
-					</a>
-				</span>
-				<ul>
-					<li>
-						<a href="#">
-							<i className="fa-brands fa-github" />
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<i className="fa-brands fa-twitter" />
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<i className="fa-brands fa-dribbble" />
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<i className="fa-brands fa-facebook" />
-						</a>
-					</li>
-				</ul>
 			</div>
 		</section>
 	);

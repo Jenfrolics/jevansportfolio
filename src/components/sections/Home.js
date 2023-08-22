@@ -6,7 +6,7 @@ const Home = () => {
 					<h1>
 						<span>
 							<span className="animated-layer">
-								Hey<span>.</span>
+								Hi<span>.</span>
 							</span>
 						</span>
 						<span className="position-relative">

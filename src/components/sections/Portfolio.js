@@ -30,7 +30,7 @@ const Portfolio = () => {
 							<SwiperSlide className="swiper-slide">
 								<img
 									src="assets/portfolio/universal-studios/us-1.png"
-									 title="img"
+									title="img"
 								/>
 							</SwiperSlide>
 							<SwiperSlide className="swiper-slide">
@@ -64,6 +64,128 @@ const Portfolio = () => {
 								</span>{" "}
 								A custom built audio sync dashboard for
 								Universal Studios.
+							</p>
+						</div>
+					</div>
+				</SwiperSlide>
+
+				<SwiperSlide className="single-item swiper-slide">
+					<div className="main-content">
+						<Swiper
+							{...salimovSlider.portfolioItems}
+							className="swiper swiper-portfolio-item"
+						>
+							<SwiperSlide className="swiper-slide">
+								<img
+									src="assets/portfolio/corridor/corridor-1.jpg"
+									title="img"
+								/>
+							</SwiperSlide>
+							<SwiperSlide className="swiper-slide">
+								<img
+									src="assets/portfolio/corridor/corridor-2.jpg"
+									title="img"
+								/>
+							</SwiperSlide>
+							<SwiperSlide className="swiper-slide">
+								<img
+									src="assets/portfolio/corridor/corridor-3.png"
+									title="img"
+								/>
+							</SwiperSlide>
+							<SwiperSlide className="swiper-slide">
+								<img
+									src="assets/portfolio/corridor/corridor-4.jpg"
+									title="img"
+								/>
+							</SwiperSlide>{" "}
+							<SwiperSlide className="swiper-slide">
+								<img
+									src="assets/portfolio/corridor/corridor-5.jpg"
+									title="img"
+								/>
+							</SwiperSlide>{" "}
+							<SwiperSlide className="swiper-slide">
+								<img
+									src="assets/portfolio/corridor/corridor-6.jpg"
+									title="img"
+								/>
+							</SwiperSlide>
+							<div className="swiper-pagination" />
+							<p className="swipe">swipe</p>
+						</Swiper>
+					</div>
+					<div className="details">
+						<h4>Corridor</h4>
+						<div>
+							<p>
+								<span className="portfolio-headers">
+									Project:
+								</span>
+								Virtual Meeting Room
+							</p>
+							<p>
+								<span className="portfolio-headers">
+									About:
+								</span>{" "}
+								Virtual meeting room nicknamed "The Corridor"
+								built using ReactJS and Reactstrap on Croquet.
+							</p>
+						</div>
+					</div>
+				</SwiperSlide>
+
+				<SwiperSlide className="single-item swiper-slide">
+					<div className="main-content">
+						<Swiper
+							{...salimovSlider.portfolioItems}
+							className="swiper swiper-portfolio-item"
+						>
+							<SwiperSlide className="swiper-slide">
+								<img
+									src="assets/portfolio/greenlight/greenlight-1.png"
+									title="img"
+								/>
+							</SwiperSlide>
+							<SwiperSlide className="swiper-slide">
+								<img
+									src="assets/portfolio/greenlight/greenlight-2.jpg"
+									title="img"
+								/>
+							</SwiperSlide>{" "}
+							<SwiperSlide className="swiper-slide">
+								<img
+									src="assets/portfolio/greenlight/greenlight-3.png"
+									title="img"
+								/>
+							</SwiperSlide>{" "}
+							<SwiperSlide className="swiper-slide">
+								<img
+									src="assets/portfolio/greenlight/greenlight-4.png"
+									title="img"
+								/>
+							</SwiperSlide>
+							<div className="swiper-pagination" />
+							<p className="swipe">swipe</p>
+						</Swiper>
+					</div>
+					<div className="details">
+						<h4>Greenlight</h4>
+						<div>
+							<p>
+								<span className="portfolio-headers">
+									Project:
+								</span>
+								Virtual Meeting Rooms
+							</p>
+							<p>
+								<span className="portfolio-headers">
+									About:
+								</span>{" "}
+								Fully synchronized virtual meeting room
+								nicknamed "Greenlight" built using ReactJS and
+								Reactstrap on Croquet. Still used daily for
+								internal communications.
 							</p>
 						</div>
 					</div>

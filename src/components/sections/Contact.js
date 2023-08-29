@@ -31,7 +31,7 @@ const Contact = () => {
 					{/* CONTACT ITEM ENDS */}
 					{/* CONTACT ITEM STARTS */}
 					<div className="animated-layer fade-in-up-animation fadeInUp wow">
-						<i className="fa-regular fa-dove" />
+						<i className="fa fa-sticky-note" />
 						<p>
 							<span className="small-text">carrier pigeon</span>
 							Vancouver Island

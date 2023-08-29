@@ -85,8 +85,8 @@ const About = () => {
 							<li>
 								<span>
 									<span className="animated-layer fade-in-up-animation fadeInUp wow">
-										<span>Experience:</span>
-										<span>7 Years</span>
+										<span>Shoe Size:</span>
+										<span>8</span>
 									</span>
 								</span>
 							</li>

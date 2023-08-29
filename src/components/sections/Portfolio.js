@@ -143,7 +143,7 @@ const Portfolio = () => {
 						>
 							<SwiperSlide className="swiper-slide">
 								<img
-									src="assets/portfolio/greenlight/greenlight-1.png"
+									src="assets/portfolio/greenlight/greenlight-1.jpg"
 									title="img"
 								/>
 							</SwiperSlide>

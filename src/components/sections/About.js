@@ -262,8 +262,18 @@ const About = () => {
 								</div>
 							</div>
 						</li>
+						<li>
+							<div className="animated-layer fade-in-down-animation fadeInUp wow">
+								<div className="experience">
+									<h4>
+										<a href="https://jevansportfol.io/assets/portfolio/JevansResume2023.pdf">
+											Download Resume
+										</a>
+									</h4>
+								</div>
+							</div>
+						</li>
 						<li />
-						test
 					</ol>
 				</div>
 				{/* TIMELINE ENDS */}

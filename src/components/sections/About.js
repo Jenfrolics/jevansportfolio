@@ -74,7 +74,11 @@ const About = () => {
 								<span>
 									<span className="animated-layer fade-in-up-animation fadeInUp wow">
 										<span>Email :</span>
-										<span>jenfrolics@gmail.com</span>
+										<span>
+											<a href="mailto:hello@jevansportfol.io?subject=You are so cool!">
+												hello@jevansportfol.io
+											</a>
+										</span>
 									</span>
 								</span>
 							</li>

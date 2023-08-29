@@ -30,7 +30,7 @@ const Portfolio = () => {
 							<SwiperSlide className="swiper-slide">
 								<img
 									src="assets/portfolio/universal-studios/us-1.png"
-									title="img"
+									 title="img"
 								/>
 							</SwiperSlide>
 							<SwiperSlide className="swiper-slide">

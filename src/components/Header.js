@@ -28,7 +28,13 @@ const Header = () => {
 				{/* FREELANCE STARTS */}
 				<div className="mail">
 					<p>
-						Email :<span> jenfrolics@gmail.com</span>
+						Email :
+						<span>
+							{" "}
+							<a href="mailto:hello@jevansportfol.io?subject=You are so cool!">
+								hello@jevansportfol.io
+							</a>
+						</span>
 					</p>
 				</div>
 				{/* FREELANCE ENDS */}

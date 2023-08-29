@@ -185,7 +185,6 @@ const About = () => {
 				{/* TIMELINE STARTS */}
 				<div className="timeline">
 					<ol className="animated-layer fade-in-animation">
-						{/* TIMELINE ITEM STARTS */}
 						<li>
 							<div className="animated-layer fade-in-down-animation fadeInUp wow">
 								<div className="education">
@@ -203,8 +202,6 @@ const About = () => {
 								</div>
 							</div>
 						</li>
-						{/* TIMELINE ITEM ENDS */}
-						{/* TIMELINE ITEM STARTS */}
 						<li>
 							<div className="animated-layer fade-in-up-animation fadeInUp wow">
 								<div className="experience">
@@ -220,8 +217,6 @@ const About = () => {
 								</div>
 							</div>
 						</li>
-						{/* TIMELINE ITEM ENDS */}
-						{/* TIMELINE ITEM STARTS */}
 						<li>
 							<div className="animated-layer fade-in-down-animation fadeInUp wow">
 								<div className="experience">
@@ -237,8 +232,6 @@ const About = () => {
 								</div>
 							</div>
 						</li>
-						{/* TIMELINE ITEM ENDS */}
-						{/* TIMELINE ITEM STARTS */}
 						<li>
 							<div className="animated-layer fade-in-up-animation fadeInUp wow">
 								<div className="experience">
@@ -254,8 +247,6 @@ const About = () => {
 								</div>
 							</div>
 						</li>
-						{/* TIMELINE ITEM ENDS */}
-						{/* TIMELINE ITEM STARTS */}
 						<li>
 							<div className="animated-layer fade-in-down-animation fadeInUp wow">
 								<div className="experience">
@@ -271,8 +262,8 @@ const About = () => {
 								</div>
 							</div>
 						</li>
-						{/* TIMELINE ITEM ENDS */}
 						<li />
+						test
 					</ol>
 				</div>
 				{/* TIMELINE ENDS */}

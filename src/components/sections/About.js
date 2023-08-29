@@ -93,14 +93,10 @@ const About = () => {
 						</ul>
 					</div>
 				</div>
-				{/* INFO ENDS */}
 			</div>
-			{/* INFO HOLDER ENDS */}
-			{/* SKILLS STARTS */}
+
 			<div className="skills flex-column-mobile">
-				{/* TITLE STARTS */}
 				<div className="custom-title">
-					{/* MAIN TITLE STARTS */}
 					<h3>
 						<span>
 							<span className="animated-layer fade-in-left-animation fadeInUp wow">
@@ -108,90 +104,75 @@ const About = () => {
 							</span>
 						</span>
 					</h3>
-					{/* MAIN TITLE ENDS */}
 				</div>
-				{/* TITLE ENDS */}
+
 				<div className="skills-content">
 					<div>
-						{/* SKILL ITEM STARTS */}
 						<div className="animated-layer fade-in-down-animation fadeInLeft wow">
 							<span>
 								<i className="fa-brands fa-bootstrap"></i>{" "}
 							</span>
 							<h4>Bootstrap</h4>
 						</div>
-						{/* SKILL ITEM ENDS */}
-						{/* SKILL ITEM STARTS */}
+
 						<div className="animated-layer fade-in-up-animation fadeInRight wow">
 							<span>
 								<i className="fa-brands fa-git"></i>{" "}
 							</span>
 							<h4>Git</h4>
 						</div>
-						{/* SKILL ITEM ENDS */}
 					</div>
 					<div>
-						{/* SKILL ITEM STARTS */}
 						<div className="animated-layer fade-in-down-animation fadeInLeft wow">
 							<span>
 								<i className="fa-brands fa-angular"></i>{" "}
 							</span>
 							<h4>Angular JS</h4>
 						</div>
-						{/* SKILL ITEM ENDS */}
-						{/* SKILL ITEM STARTS */}
+
 						<div className="animated-layer fade-in-up-animation fadeInRight wow">
 							<span>
 								<i className="fa-solid fa-bezier-curve"></i>{" "}
 							</span>
 							<h4>Adobe</h4>
 						</div>
-						{/* SKILL ITEM ENDS */}
 					</div>
 					<div>
-						{/* SKILL ITEM STARTS */}
 						<div className="animated-layer fade-in-down-animation fadeInLeft wow">
 							<span>
 								<i className="fa-brands fa-react"></i>{" "}
 							</span>
 							<h4>React JS</h4>
 						</div>
-						{/* SKILL ITEM ENDS */}
-						{/* SKILL ITEM STARTS */}
+
 						<div className="animated-layer fade-in-up-animation fadeInRight wow">
 							<span>
 								<i className="fa-brands fa-figma"></i>{" "}
 							</span>
 							<h4>Figma</h4>
 						</div>
-						{/* SKILL ITEM ENDS */}
 					</div>
 					<div>
-						{/* SKILL ITEM STARTS */}
 						<div className="animated-layer fade-in-down-animation fadeInLeft wow">
 							<span>
 								<i className="fa-brands fa-node"></i>{" "}
 							</span>
 							<h4>Node JS</h4>
 						</div>
-						{/* SKILL ITEM ENDS */}
-						{/* SKILL ITEM STARTS */}
+
 						<div className="animated-layer fade-in-up-animation fadeInRight wow">
 							<span>
 								<i className="fa-solid fa-code"></i>{" "}
 							</span>
 							<h4>Html / CSS</h4>
 						</div>
-						{/* SKILL ITEM ENDS */}
 					</div>
 				</div>
 			</div>
 			{/* SKILLS ENDS */}
 			{/* RESUME STARTS */}
 			<div className="resume flex-column-mobile">
-				{/* TITLE STARTS */}
 				<div className="custom-title fadeInUp wow">
-					{/* MAIN TITLE STARTS */}
 					<h3>
 						<span>
 							<span className="animated-layer fade-in-left-animation">
@@ -199,9 +180,8 @@ const About = () => {
 							</span>
 						</span>
 					</h3>
-					{/* MAIN TITLE ENDS */}
 				</div>
-				{/* TITLE ENDS */}
+
 				{/* TIMELINE STARTS */}
 				<div className="timeline">
 					<ol className="animated-layer fade-in-animation">

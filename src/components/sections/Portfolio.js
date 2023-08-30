@@ -250,7 +250,7 @@ const Portfolio = () => {
 						>
 							<SwiperSlide className="swiper-slide">
 								<img
-									src="assets/portfolio/game-ui/demolition-before.png"
+									src="assets/portfolio/game-ui/demolition-2.png"
 									title="img"
 								/>
 							</SwiperSlide>
@@ -262,7 +262,7 @@ const Portfolio = () => {
 							</SwiperSlide>
 							<SwiperSlide className="swiper-slide">
 								<img
-									src="assets/portfolio/game-ui/demolition-2.png"
+									src="assets/portfolio/game-ui/demolition-before.png"
 									title="img"
 								/>
 							</SwiperSlide>
@@ -301,7 +301,7 @@ const Portfolio = () => {
 						>
 							<SwiperSlide className="swiper-slide">
 								<img
-									src="assets/portfolio/game-ui/guardians-before.png"
+									src="assets/portfolio/game-ui/guardians-after.jpg"
 									title="img"
 								/>
 							</SwiperSlide>
@@ -313,7 +313,7 @@ const Portfolio = () => {
 							</SwiperSlide>
 							<SwiperSlide className="swiper-slide">
 								<img
-									src="assets/portfolio/game-ui/guardians-after.jpg"
+									src="assets/portfolio/game-ui/guardians-before.png"
 									title="img"
 								/>
 							</SwiperSlide>

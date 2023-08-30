@@ -266,7 +266,10 @@ const About = () => {
 							<div className="animated-layer fade-in-down-animation fadeInUp wow">
 								<div className="experience">
 									<h4>
-										<a href="https://jevansportfol.io/assets/portfolio/JevansResume2023.pdf">
+										<a
+											href="https://jevansportfol.io/assets/portfolio/JevansResume2023.pdf"
+											target="_blank"
+										>
 											Download Resume
 										</a>
 									</h4>
